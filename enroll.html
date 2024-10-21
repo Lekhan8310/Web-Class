@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+    <style>
+        body{
+            text-align:center;
+        }
+        form{
+            background-color: rgb(213, 245, 106);
+            margin-left: 38%;
+            margin-right: 38%;
+            margin-top: 20px;
+            background-origin:border-box;
+            text-align: center;
+            padding-right: 20px;
+            padding: 10px;
+            font-weight: bold;
+            
+            
+            
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    
+    <form action="#" method="GET">
+        
+        <h2>Student Enroll Form For Quntnex</h2>
+        <label for="fn">First Name :</label>
+        <input id="fn" type="text" name="firstname" placeholder="Enter First name"><br>
+        <label for="ln">Last Name :</label>
+        <input  id="ln" type="text" name="lastname" placeholder="Enter Last Name"><br>
+        <label for="gd">Select Your Gender :</label><br>
+        <input id="gd" type="radio" name="gender" value="M">Male
+        <input id="gd" type="radio" name="gender" value="F">Female
+        <input id="gd" type="radio" name="gender" value="O">Others <br>
+        <label for="cource">Select Your Cource</label>
+        <select name="cource" id="cource">
+            <option value="KN">Java FullStack</option>
+            <option value="EN">Python FullStack</option>
+            <option value="HN">Automation Testing</option>
+        </select><br>
+        <label for="textarea">Write Something</label>
+        <textarea name="ta" placeholder="Write about yourself here"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
